@@ -2,5 +2,10 @@ setup-workspace
 
 setup-repo dogweb
 setup-repo dd-analytics
-setup-repo dev-tools
+setup-repo devtools
 setup-repo terraform-config
+
+# Signing key issues
+echo export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock >> ~/.zshrc
+echo export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock >> ~/.bashrc
+
